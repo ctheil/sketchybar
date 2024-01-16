@@ -18,10 +18,15 @@ curl -L https://github.com/kvndrsslr/sketchybar-app-font/releases/download/v1.0.
 ```
 curl -L https://github.com/kvndrsslr/sketchybar-app-font/releases/download/v1.0.20/icon_map_fn.sh -o ~/.config/sketchybar/plugins/icon_map_fn.sh
 ```
+## Install jq JSON Parser
+```
+brew install jq
+```
 
 ## Make all `.sh` files executable
 ```
-chmod +x <filePath>
+chmod +x ~/.config/sketchybar/plugins/*
+chmod +x ~/.config/sketchybar/items/*
 ```
 ## Start service
 ```
