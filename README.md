@@ -15,3 +15,12 @@ brew install --cask sf-symbols
 ```
 chmod +x <filePath>
 ```
+## Start service
+```
+brew services start sketchybar
+```
+
+## Restart service
+```
+sketchybar --reload
+```
