@@ -8,6 +8,8 @@ do
              --set space.$sid space=$sid                                 \
                               icon=$sid                                  \
                               label.font="sketchybar-app-font:Regular:16.0" \
+                              label.color=$ROSE100 \
+                              icon.color=$ROSE100 \
                               label.padding_right=20                     \
                               label.y_offset=-1                          \
                               script="$PLUGIN_DIR/space.sh"
