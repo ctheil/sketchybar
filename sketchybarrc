@@ -23,6 +23,7 @@ sketchybar --bar height=37        \
                  sticky=off       \
                  padding_left=10  \
                  padding_right=10 \
+                 color=none
                  # color=$BAR_COLOR
 
 ##### Changing Defaults #####
