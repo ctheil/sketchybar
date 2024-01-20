@@ -1,3 +1,6 @@
+# Beautiful Catppuccin Custom Status Bar
+<img width="2558" alt="Screenshot 2024-01-19 at 5 00 16 PM" src="https://github.com/ctheil/sketchybar/assets/86980706/11643732-ef97-4101-9e24-9db01aff3ece">
+
 # Setup
 ## Install sketchybar
 ```
