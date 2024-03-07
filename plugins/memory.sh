@@ -15,10 +15,5 @@ MEM_ACTIVE_GB=$(($MEM_ACTIVE_MB / 1000))
 MEM_FREE_MB=$(($MEM_TOTAL - $MEM_ACTIVE_MB))
 MEM_FREE_GB=$(($MEM_FREE_MB / 1000))
 
-
-
-
-
-# sketchybar --set $NAME label="$MEM_ACTIVE_GB / $MEM_TOTAL_GB GiB"
-sketchybar --set $NAME label="$MEM_FREE_GB GiB free"
-
+sketchybar --set $NAME label="$MEM_ACTIVE_GB / $MEM_TOTAL_GB GiB"
+# sketchybar --set $NAME label="$MEM_FREE_GB GiB free"
